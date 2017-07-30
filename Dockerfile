@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM resin/raspberrypi3-python:3.6
 
 MAINTAINER mezz64 <jtmihalic@gmail.com>
 
