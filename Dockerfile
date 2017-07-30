@@ -1,7 +1,5 @@
 FROM resin/raspberrypi3-python:3.6
 
-MAINTAINER mezz64 <jtmihalic@gmail.com>
-
 RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
