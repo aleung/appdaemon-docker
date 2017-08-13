@@ -8,6 +8,7 @@ RUN apt-get update && \
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 VOLUME /conf
+VOLUME /etc/localtime
 
 # Grab source
 RUN git clone https://github.com/home-assistant/appdaemon.git .
