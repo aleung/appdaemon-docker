@@ -1,5 +1,7 @@
 FROM resin/raspberrypi3-python:3.6
 
+RUN [ "cross-build-start" ]
+
 RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
@@ -14,3 +16,5 @@ RUN git clone https://github.com/home-assistant/appdaemon.git .
 RUN pip3 install .
 
 CMD [ "appdaemon", "-c", "/conf" ]
+
+RUN [ "cross-build-end" ]
