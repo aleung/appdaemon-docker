@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-python:3.6
+FROM resin/raspberry-pi2-python:3.6
 
 RUN [ "cross-build-start" ]
 
