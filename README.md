@@ -1,5 +1,5 @@
 # appdaemon-docker
-Docker for HASS AppDaemon on Raspberrypi-3
+Docker for HASS AppDaemon on Raspberrypi-2
 
 Docker is built from the same python 3.6 source image as the official HASS docker to minimze the space this container will consume on your system.
 
