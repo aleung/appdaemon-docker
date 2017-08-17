@@ -1,6 +1,7 @@
-# appdaemon-docker
+# pi2-appdaemon-docker
+
 Docker for HASS AppDaemon on Raspberrypi-2
 
-Docker is built from the same python 3.6 source image as the official HASS docker to minimze the space this container will consume on your system.
+Install instruction: http://appdaemon.readthedocs.io/en/latest/DOCKER_TUTORIAL/
 
-The /conf container directory should be mapped to a local directory containing your apps folder and the appdaemon.cfg file.  More info on configuring appdaemon can be found at it's repo: https://github.com/acockburn/appdaemon
+_Remember to replace docker image tag from `acockburn/appdaemon` to `acette/pi2-appdaemon` when you copy command from the tutorial_
